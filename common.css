@@ -1,0 +1,26 @@
+.video-thumbnail {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video-thumbnail {
+    padding: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .video-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .video-thumbnail img {
+    border-radius: 8px;
+  }
+
+  .video-title {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
